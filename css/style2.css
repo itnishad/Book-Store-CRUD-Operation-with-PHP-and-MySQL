@@ -1,0 +1,113 @@
+body{
+    font-family: 'Merriweather', serif; 
+    margin: 0px;
+}
+.red-color{
+    color: red;
+}
+.box{
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(31, 24, 24, 0.384);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .button {
+    float: right;
+    padding: 15px;
+   }  
+.box1{
+
+    display: flex;
+    background-image: url(pic1.png) ;
+    background-repeat: no-repeat;
+}
+.width{
+    width: 50%;
+    padding: 5%;
+}
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 15px;
+    border-radius: 15%;
+}
+.buy-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 15px;
+    border-radius: 10%;
+}
+.product-information{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
+.product-area{
+    display: flex;
+
+}
+.product-area1{
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px gray;
+}
+.img{
+    border-radius: 10px;
+}
+.extra-work{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+   
+}
+.big{
+    font-size: 50px;
+}
+#color-change{
+    color: orangered;
+}
+#text-align {
+    text-align: center;
+    color: thistle;
+}
+footer{
+    background-color: black;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 25px; 
+    color: thistle;
+    text-align: center;
+}
+.text-align{
+    margin-left: 12%;
+    margin-right: 7%;
+    padding: 20px 30px 10px 5px;
+}
